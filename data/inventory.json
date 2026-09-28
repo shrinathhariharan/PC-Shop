@@ -1,0 +1,186 @@
+{
+  "prebuilts": [
+    {
+      "id": "PB001",
+      "name": "Nexus Starter",
+      "tier": "Budget",
+      "description": "Perfect entry-level gaming rig for 1080p esports titles.",
+      "specs": {
+        "cpu": "AMD Ryzen 5 5600",
+        "gpu": "NVIDIA RTX 4060",
+        "ram": "16GB DDR4-3200",
+        "storage": "512GB NVMe SSD",
+        "motherboard": "B550M",
+        "psu": "550W 80+ Bronze",
+        "case": "Micro-ATX Tower"
+      },
+      "price": 749.99,
+      "stock": 12,
+      "power_draw_w": 320,
+      "socket": "AM4",
+      "image_tag": "budget"
+    },
+    {
+      "id": "PB002",
+      "name": "Apex Performance",
+      "tier": "Mid-Range",
+      "description": "Solid 1440p gaming and content creation workstation.",
+      "specs": {
+        "cpu": "AMD Ryzen 7 7700X",
+        "gpu": "NVIDIA RTX 4070 Super",
+        "ram": "32GB DDR5-5600",
+        "storage": "1TB NVMe Gen4 SSD",
+        "motherboard": "B650",
+        "psu": "750W 80+ Gold",
+        "case": "Mid-Tower ATX"
+      },
+      "price": 1299.99,
+      "stock": 8,
+      "power_draw_w": 450,
+      "socket": "AM5",
+      "image_tag": "midrange"
+    },
+    {
+      "id": "PB003",
+      "name": "Titan Ultra",
+      "tier": "High-End",
+      "description": "Flagship 4K gaming and professional rendering powerhouse.",
+      "specs": {
+        "cpu": "Intel Core i9-14900K",
+        "gpu": "NVIDIA RTX 4080 Super",
+        "ram": "64GB DDR5-6000",
+        "storage": "2TB NVMe Gen5 SSD",
+        "motherboard": "Z790",
+        "psu": "1000W 80+ Platinum",
+        "case": "Full Tower ATX"
+      },
+      "price": 2499.99,
+      "stock": 4,
+      "power_draw_w": 650,
+      "socket": "LGA1700",
+      "image_tag": "highend"
+    },
+    {
+      "id": "PB004",
+      "name": "Velocity Pro",
+      "tier": "Mid-Range",
+      "description": "Balanced Intel build for gaming and productivity.",
+      "specs": {
+        "cpu": "Intel Core i5-14600KF",
+        "gpu": "NVIDIA RTX 4060 Ti",
+        "ram": "32GB DDR5-5200",
+        "storage": "1TB NVMe Gen4 SSD",
+        "motherboard": "B760",
+        "psu": "650W 80+ Gold",
+        "case": "Mid-Tower ATX"
+      },
+      "price": 1099.99,
+      "stock": 10,
+      "power_draw_w": 380,
+      "socket": "LGA1700",
+      "image_tag": "midrange"
+    },
+    {
+      "id": "PB005",
+      "name": "Creator Station",
+      "tier": "Workstation",
+      "description": "Optimized for video editing, 3D rendering, and AI workloads.",
+      "specs": {
+        "cpu": "AMD Ryzen 9 7950X",
+        "gpu": "NVIDIA RTX 4090",
+        "ram": "128GB DDR5-5600 ECC",
+        "storage": "4TB NVMe Gen5 SSD",
+        "motherboard": "X670E",
+        "psu": "1200W 80+ Titanium",
+        "case": "Full Tower E-ATX"
+      },
+      "price": 4299.99,
+      "stock": 2,
+      "power_draw_w": 850,
+      "socket": "AM5",
+      "image_tag": "workstation"
+    },
+    {
+      "id": "PB006",
+      "name": "Mini Forge",
+      "tier": "Compact",
+      "description": "Small form-factor powerhouse for tight spaces.",
+      "specs": {
+        "cpu": "AMD Ryzen 5 7600",
+        "gpu": "NVIDIA RTX 4060",
+        "ram": "16GB DDR5-5200",
+        "storage": "1TB NVMe SSD",
+        "motherboard": "B650I ITX",
+        "psu": "600W SFX 80+ Gold",
+        "case": "Mini-ITX"
+      },
+      "price": 899.99,
+      "stock": 6,
+      "power_draw_w": 300,
+      "socket": "AM5",
+      "image_tag": "compact"
+    }
+  ],
+  "parts": {
+    "cpu": [
+      {"id": "CPU001", "name": "AMD Ryzen 5 5600", "price": 129.99, "stock": 25, "socket": "AM4", "tdp_w": 65},
+      {"id": "CPU002", "name": "AMD Ryzen 7 7700X", "price": 299.99, "stock": 15, "socket": "AM5", "tdp_w": 105},
+      {"id": "CPU003", "name": "Intel Core i5-14600KF", "price": 259.99, "stock": 18, "socket": "LGA1700", "tdp_w": 125},
+      {"id": "CPU004", "name": "Intel Core i9-14900K", "price": 549.99, "stock": 8, "socket": "LGA1700", "tdp_w": 253},
+      {"id": "CPU005", "name": "AMD Ryzen 9 7950X", "price": 549.99, "stock": 6, "socket": "AM5", "tdp_w": 170}
+    ],
+    "gpu": [
+      {"id": "GPU001", "name": "NVIDIA RTX 4060", "price": 299.99, "stock": 20, "tdp_w": 115},
+      {"id": "GPU002", "name": "NVIDIA RTX 4060 Ti", "price": 399.99, "stock": 14, "tdp_w": 160},
+      {"id": "GPU003", "name": "NVIDIA RTX 4070 Super", "price": 599.99, "stock": 10, "tdp_w": 220},
+      {"id": "GPU004", "name": "NVIDIA RTX 4080 Super", "price": 999.99, "stock": 6, "tdp_w": 320},
+      {"id": "GPU005", "name": "NVIDIA RTX 4090", "price": 1599.99, "stock": 3, "tdp_w": 450}
+    ],
+    "ram": [
+      {"id": "RAM001", "name": "16GB DDR4-3200", "price": 39.99, "stock": 40, "type": "DDR4"},
+      {"id": "RAM002", "name": "32GB DDR4-3600", "price": 79.99, "stock": 25, "type": "DDR4"},
+      {"id": "RAM003", "name": "16GB DDR5-5200", "price": 59.99, "stock": 30, "type": "DDR5"},
+      {"id": "RAM004", "name": "32GB DDR5-5600", "price": 109.99, "stock": 20, "type": "DDR5"},
+      {"id": "RAM005", "name": "64GB DDR5-6000", "price": 219.99, "stock": 10, "type": "DDR5"},
+      {"id": "RAM006", "name": "128GB DDR5-5600 ECC", "price": 499.99, "stock": 4, "type": "DDR5"}
+    ],
+    "storage": [
+      {"id": "STR001", "name": "512GB NVMe SSD", "price": 44.99, "stock": 35},
+      {"id": "STR002", "name": "1TB NVMe Gen4 SSD", "price": 79.99, "stock": 30},
+      {"id": "STR003", "name": "2TB NVMe Gen5 SSD", "price": 189.99, "stock": 12},
+      {"id": "STR004", "name": "4TB NVMe Gen5 SSD", "price": 349.99, "stock": 5}
+    ],
+    "motherboard": [
+      {"id": "MB001", "name": "B550M Micro-ATX", "price": 99.99, "stock": 20, "socket": "AM4", "ram_type": "DDR4"},
+      {"id": "MB002", "name": "B650 ATX", "price": 179.99, "stock": 15, "socket": "AM5", "ram_type": "DDR5"},
+      {"id": "MB003", "name": "B760 ATX", "price": 149.99, "stock": 18, "socket": "LGA1700", "ram_type": "DDR5"},
+      {"id": "MB004", "name": "Z790 ATX", "price": 299.99, "stock": 10, "socket": "LGA1700", "ram_type": "DDR5"},
+      {"id": "MB005", "name": "X670E ATX", "price": 349.99, "stock": 7, "socket": "AM5", "ram_type": "DDR5"},
+      {"id": "MB006", "name": "B650I Mini-ITX", "price": 199.99, "stock": 8, "socket": "AM5", "ram_type": "DDR5"}
+    ],
+    "psu": [
+      {"id": "PSU001", "name": "550W 80+ Bronze", "price": 59.99, "stock": 22, "wattage": 550},
+      {"id": "PSU002", "name": "650W 80+ Gold", "price": 89.99, "stock": 18, "wattage": 650},
+      {"id": "PSU003", "name": "750W 80+ Gold", "price": 109.99, "stock": 15, "wattage": 750},
+      {"id": "PSU004", "name": "1000W 80+ Platinum", "price": 179.99, "stock": 8, "wattage": 1000},
+      {"id": "PSU005", "name": "1200W 80+ Titanium", "price": 249.99, "stock": 4, "wattage": 1200}
+    ],
+    "case": [
+      {"id": "CSE001", "name": "Micro-ATX Tower", "price": 59.99, "stock": 15, "form_factor": "Micro-ATX"},
+      {"id": "CSE002", "name": "Mid-Tower ATX", "price": 89.99, "stock": 20, "form_factor": "ATX"},
+      {"id": "CSE003", "name": "Full Tower ATX", "price": 149.99, "stock": 10, "form_factor": "ATX"},
+      {"id": "CSE004", "name": "Full Tower E-ATX", "price": 199.99, "stock": 6, "form_factor": "E-ATX"},
+      {"id": "CSE005", "name": "Mini-ITX Case", "price": 109.99, "stock": 8, "form_factor": "Mini-ITX"}
+    ]
+  },
+  "repair_services": [
+    {"id": "RPR001", "name": "Hardware Diagnostic", "description": "Full system diagnostic scan and report.", "price": 49.99, "duration_days": 1},
+    {"id": "RPR002", "name": "Virus/Malware Removal", "description": "Deep scan and cleanup of infected systems.", "price": 79.99, "duration_days": 2},
+    {"id": "RPR003", "name": "OS Reinstall & Setup", "description": "Clean install of Windows/Linux with driver setup.", "price": 99.99, "duration_days": 1},
+    {"id": "RPR004", "name": "Data Recovery", "description": "Attempt recovery from failing or corrupted drives.", "price": 149.99, "duration_days": 3},
+    {"id": "RPR005", "name": "Hardware Replacement", "description": "Replace faulty component (part cost separate).", "price": 69.99, "duration_days": 2},
+    {"id": "RPR006", "name": "Thermal Paste & Cleaning", "description": "Deep clean and re-apply thermal compound.", "price": 39.99, "duration_days": 1},
+    {"id": "RPR007", "name": "Custom Cable Management", "description": "Professional cable routing and management.", "price": 59.99, "duration_days": 1},
+    {"id": "RPR008", "name": "BIOS Update & Optimization", "description": "Update BIOS and optimize system settings.", "price": 29.99, "duration_days": 1}
+  ]
+}
